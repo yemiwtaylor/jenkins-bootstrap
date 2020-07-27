@@ -12,7 +12,7 @@ pipelineJob('sea-cleaner-job') {
             scm {
                 git {
                     remote {
-                        url 'git@github.com:yemiwtaylor/sea-cleaner.git'
+                        url 'https://github.com/yemiwtaylor/sea-cleaner.git'
                     }
                     branch 'master'
                 }
